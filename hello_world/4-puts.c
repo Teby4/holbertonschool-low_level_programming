@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 /*
- * Description: hello puts
+ * main - hello puts
  * return 0
  */
 
