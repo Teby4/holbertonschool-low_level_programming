@@ -1,8 +1,8 @@
 #include<stdio.h>
 
-/*
- * hello puts
- * return 0
+/**
+ * main - hello puts
+ * Return: 0
  */
 
 int main(void)
