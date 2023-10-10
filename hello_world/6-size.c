@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 /**
-*
-* main - sizeof char int long double float
+* main - izeof char int long double float
 * Return 0
 *
 */
