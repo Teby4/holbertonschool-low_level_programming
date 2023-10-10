@@ -2,7 +2,7 @@
 
 /**
 * main - izeof char int long double float
-* Return 0
+* Return: 0
 *
 */
 
