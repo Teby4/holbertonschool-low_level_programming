@@ -7,10 +7,10 @@
 
 int main(void)
 {
-	int alp;
+	char alp;
 
 	for (alp = 'a'; alp <= 'z'; ++alp)
-	putchar("%d", alp);
+	putchar("%c", alp);
 	putchar("\n")
 	return(0);
 
