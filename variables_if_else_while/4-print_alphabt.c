@@ -1,22 +1,22 @@
 #include<stdio.h>
 
 /**
- * main - print alphabet
- * Return: 0
- */
+* main - print alphabet
+* Return: 0
+*/
 
 int main(void)
 {
-        char alp;
+char alp;
 
-        for (alp = 'a'; alp <= 'z'; alp++)
-        {			
-		if  (alp != 'q' && alp != 'e')
-			{
-			putchar(alp);
-			}
-        }
-        putchar('\n');
-        return (0);
+for (alp = 'a'; alp <= 'z'; alp++)
+{			
+if  (alp != 'q' && alp != 'e')
+{
+putchar(alp);
+}
+}
+putchar('\n');
+return (0);
 
 }
