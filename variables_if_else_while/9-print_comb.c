@@ -9,15 +9,15 @@ int main(void)
 {
 
 int p;
-	for (p = '0'; p <= '9'; p++)
+	for (p = 48; p < 58; p++)
 	{
 
-	putchar(p + 0);
+	putchar(p);
 
-		if (p < 9)
+		if (p < 57)
 		{
 		putchar(44);
-		putchar(95);
+		putchar(32);
 		}
 	}
 
