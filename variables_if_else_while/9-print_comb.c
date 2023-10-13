@@ -7,16 +7,19 @@
 
 int main(void)
 {
-int p;
-for (p = '0'; p <= '9'; p++)
-{
-putchar(p);
 
-if (p < 9)
-{
-putchar(',');
-putchar(' ');
-}
-}
+int p;
+	for (p = '0'; p <= '9'; p++)
+	{
+
+	putchar(p);
+
+		if (p < 9)
+		{
+		putchar(',');
+		putchar(' ');
+		}
+	}
+
 putchar('\n');
 }
