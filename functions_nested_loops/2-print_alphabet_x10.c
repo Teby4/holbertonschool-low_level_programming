@@ -2,9 +2,8 @@
 #include "main.h"
 
 /**
- *
- *
- *
+ * print_alphabet_x10 - 
+ * Return:
  */
 
 void print_alphabet_x10(void);
@@ -19,5 +18,5 @@ void print_alphabet_x10(void);
 			_putchar(abc);
 		}
 	}
-	_putchar('\n')
+	_putchar('\n');
 }
