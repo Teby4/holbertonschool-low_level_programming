@@ -22,4 +22,6 @@ int p;
 	}
 
 putchar('\n');
+return(0);
+
 }
