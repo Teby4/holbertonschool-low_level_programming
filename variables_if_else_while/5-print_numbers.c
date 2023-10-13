@@ -1,7 +1,6 @@
 #include<stdio.h>
 
 /**
- *
  * main - print base 10
  * Return: 0
  */
@@ -17,5 +16,4 @@ int main(void)
 	
 	putchar('\n');
 	return(0);
-
 }
