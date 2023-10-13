@@ -9,9 +9,12 @@ int main(void)
 {
         char alp;
 
-        for (alp = 'a'; alp <= 'z'; alp != 'q'; alp != 'e'; alp++)
-        {
-        putchar(alp);
+        for (alp = 'a'; alp <= 'z'; alp; alp++)
+        {			
+		if  (alp != 'q'; && alp != 'e')
+			{
+			putchar(alp);
+			}
         }
         putchar('\n');
         return (0);
