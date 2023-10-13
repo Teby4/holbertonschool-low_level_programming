@@ -3,7 +3,7 @@
 /**
  * _isalpha - check for alpha characters
  * Return: 1
- * @c - number given
+ * @c: number given
  */
 
 int _isalpha(int c)
