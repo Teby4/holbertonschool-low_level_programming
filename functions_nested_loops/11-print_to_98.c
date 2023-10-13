@@ -2,9 +2,10 @@
 #include"main.h"
 
 /**
- * Return:
  * print_to_98 - entry point
+ * Description: a
  * @n: variable
+ * Return:
  */
 
 void print_to_98(int n)
