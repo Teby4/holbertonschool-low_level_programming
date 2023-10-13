@@ -14,7 +14,7 @@ int main(void)
         {
         putchar(alp);
         }
-	if ((alp = 'z'); AZ = 'A'; AZ <= 'Z'; AZ++)
+	if (AZ = 'A'; AZ <= 'Z'; AZ++)
 	{
 	putchar(AZ);
 	}
