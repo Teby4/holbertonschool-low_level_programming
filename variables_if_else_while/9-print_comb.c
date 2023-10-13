@@ -16,8 +16,8 @@ int p;
 
 		if (p < 9)
 		{
-		putchar(',');
-		putchar(' ');
+		putchar(44);
+		putchar(95);
 		}
 	}
 
