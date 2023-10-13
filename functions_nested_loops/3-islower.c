@@ -8,9 +8,8 @@
 
 int _islower(int c)
 {
-	int il;
 
-	if (islower(il) != 0)
+	if (c != 0)
 	{
 	return (1);
 	}
