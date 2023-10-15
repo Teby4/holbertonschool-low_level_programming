@@ -3,6 +3,8 @@
 
 /**
  * print_sign - print the sign
+ * Return: 1 -1 0
+ * @n - number given
  * Description: t5
  * Return:
  */
