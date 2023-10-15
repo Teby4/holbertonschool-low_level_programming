@@ -2,9 +2,12 @@
 #include<stdio.h>
 
 /**
- *
- *
- *
+ * add - adds the numbers
+ * Description: add two variables
+ * Return:
+ * @n: first variable to add
+ * @r: second variable
+ * @j: result
  */
 
 int add(int n, int r)
