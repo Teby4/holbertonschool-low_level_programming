@@ -4,9 +4,8 @@
 /**
  * print_last_digit - print last digit
  * Desctription:
- * Return:
+ * Return: "last"
  * @n: number
- * @last: last digit
  */
 
 int print_last_digit(int n)
