@@ -3,8 +3,8 @@
 
 /**
  * print_last_digit - print last digit
- * Desctription: 
- * Return: last
+ * Desctription:
+ * Return:
  * @n: number
  * @last: last digit
  */
