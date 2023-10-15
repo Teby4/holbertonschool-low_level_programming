@@ -3,7 +3,6 @@
 #include <stdlib.h>
 
 /**
- * @n: number
  * _abs - reproduce the abs function
  * Description: reproduce abs
  * Return: n
