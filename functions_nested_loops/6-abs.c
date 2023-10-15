@@ -3,17 +3,17 @@
 #include <stdlib.h>
 
 /**
- *
- *
- *
- *
+ * @n: number
+ * _abs - reproduce the abs function
+ * Description: reproduce abs
+ * Return: n
  */
 
 int _abs(int n)
 {
-	if (n < 0)	
-	{ 
-	n = -n; 
+	if (n < 0)
+	{
+	n = -n;
 	}
 	return (n);
 
