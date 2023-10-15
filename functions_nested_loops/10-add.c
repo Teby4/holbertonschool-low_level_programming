@@ -4,7 +4,7 @@
 /**
  * add - adds the numbers
  * Description: add two variables
- * Return:
+ * Return: "j"
  * @n: first variable to add
  * @r: second variable
  */
