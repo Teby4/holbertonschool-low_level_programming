@@ -13,17 +13,17 @@ int print_sign(int n)
 	if (n >= 1)
 	{
 	return (1);
-	_putchar("+");
+	printf ("+");
 	}
 	else if (n <= -1)
 	{
 	return(-1);
-	_putchar("-");
+	printf ("-");
 	}
 	else
 	{
 	return(0);	
-	_putchar("0");
+	printf ("0");
 	}
 
 
