@@ -7,7 +7,6 @@
  * Return:
  * @n: first variable to add
  * @r: second variable
- * @j: result
  */
 
 int add(int n, int r)
