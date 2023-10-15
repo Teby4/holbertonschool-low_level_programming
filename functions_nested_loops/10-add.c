@@ -3,8 +3,8 @@
 
 /**
  * add - adds the numbers
- * Description: add two variables
  * Return: "j"
+ * Description: add two variables
  * @n: first variable to add
  * @r: second variable
  */
