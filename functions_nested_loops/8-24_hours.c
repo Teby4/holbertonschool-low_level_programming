@@ -3,8 +3,8 @@
 
 /**
  * jack_bauer - prints every minute
- * Return: ... 
- * Description: 
+ * Return: ...
+ * Description:
  *
  */
 
