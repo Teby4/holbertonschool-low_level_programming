@@ -13,8 +13,9 @@ void print_numbers(void)
 
 	o = 0;
 
-	if (o <= 9; o++)
+	while (o <= 9)
 	{
+	o++;
 	_putchar(o);
 	}
 	if (o == 9)
