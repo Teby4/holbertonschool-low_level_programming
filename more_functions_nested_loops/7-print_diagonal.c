@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * 
- *
- *
- *
+ * print_diagonal - print a diagonal 
+ * Return: diagonal
+ * Description:
+ * @n: numero
  */
 
 void print_diagonal(int n)
