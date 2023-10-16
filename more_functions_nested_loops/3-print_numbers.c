@@ -11,7 +11,8 @@ void print_numbers(void)
 {
 	int o;
 
-	for (o >= '0'; o <= '9'; o++)
+	o = 0;
+	for (o <= '9'; o++)
 	{
 	_putchar(o);
 	}
