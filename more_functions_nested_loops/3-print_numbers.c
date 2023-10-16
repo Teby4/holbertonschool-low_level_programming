@@ -18,9 +18,6 @@ void print_numbers(void)
 	_putchar(o + '0');
 	o++;
 	}
-	if (o == 9)
-	{
 	_putchar('\n');
-	}
 
 }
