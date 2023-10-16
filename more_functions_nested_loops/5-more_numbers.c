@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_numbers - print numbers 1 to 9
+ * more_numbers - print numbers 1 to 9 10 times
  * Return:
  * Description:
  */
@@ -23,7 +23,7 @@ void more_numbers(void)
 		{
 		_putchar('\n');
 		o = 0;
-		s++
+		s++;
 		}
 	o++;
 	}
