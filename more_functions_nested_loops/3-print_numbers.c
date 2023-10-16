@@ -15,8 +15,8 @@ void print_numbers(void)
 
 	while (o <= 9)
 	{
-	_putchar(o);
-	o++
+	_putchar(o + '0');
+	o++;
 	}
 	if (o == 9)
 	{
