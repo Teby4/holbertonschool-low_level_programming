@@ -11,7 +11,7 @@ void more_numbers(void)
 {
 	int o;
 	int s;
-	
+
 	o = 0;
 
 	while (o < 10)
