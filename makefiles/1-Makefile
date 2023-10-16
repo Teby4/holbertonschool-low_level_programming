@@ -1,0 +1,2 @@
+all: src school
+	cc -c src school.c -o school
