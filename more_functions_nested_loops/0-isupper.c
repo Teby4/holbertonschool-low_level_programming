@@ -3,9 +3,9 @@
 
 /**
  * _isupper - check for uppercase
- * Return:
+ * Return: 1 or 0
  * Description:
- * 
+ * @c: letter input
  */
 
 
