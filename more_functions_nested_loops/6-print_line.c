@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- *
- *
- *
- * @n:
+ * print_line - print a line
+ * Return:
+ * Description:
+ * @n: number given
  */
 
 void print_line(int n)
@@ -16,10 +16,10 @@ void print_line(int n)
 	{
 		if (n > 0)
 		{
-		_putchar('_')
+		_putchar('_');
 		}
 
-	}	
-	_putchar('\n')
+	}
+	_putchar('\n');
 
 }
