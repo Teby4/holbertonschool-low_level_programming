@@ -13,9 +13,12 @@ void print_numbers(void)
 
 	o = 0;
 
-	for (o <= 9 && o != 2 && o != 4; o++)
+	for (o <= 9)
 	{
-	_putchar(o + '0');
+		if (o != 2 && o != 4)
+		{
+		_putchar(o + '0');
+		}
 	}
 	_putchar('\n');
 
