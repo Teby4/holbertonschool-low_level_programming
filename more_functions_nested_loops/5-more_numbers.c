@@ -15,7 +15,7 @@ void more_numbers(void)
 	o = 0;
 	s = 0;
 
-	for (o <= "14")
+	for (o <= 14)
 	{
 	_putchar(o + '0');
 
