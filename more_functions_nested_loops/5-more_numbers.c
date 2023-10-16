@@ -9,8 +9,8 @@
 
 void more_numbers(void)
 {
-	char o;
-	char s;
+	int o;
+	int s;
 
 	o = 0;
 	s = 0;
