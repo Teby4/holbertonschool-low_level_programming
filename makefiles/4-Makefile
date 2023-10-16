@@ -1,4 +1,4 @@
-CC = gcc
+CC = gcc $(CFLAGS)
 SRC = main.c school.c
 OBJ = $(SRC:.c=.o)
 NAME = school
@@ -17,5 +17,3 @@ oclean:
 fclean: clean oclean
 
 re: oclean all
-~
-
