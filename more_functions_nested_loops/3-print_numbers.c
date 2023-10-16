@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * print_numbers - print numbers 1 to 9 
+ * print_numbers - print numbers 1 to 9
  * Return:
- * Description: 
+ * Description:
  */
 
 void print_numbers(void)
