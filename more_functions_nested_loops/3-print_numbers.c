@@ -13,8 +13,11 @@ void print_numbers(void)
 
 	for (o >= 0; o <= 9; o++)
 	{
-	printf ("%d", o)
+	_putchar(o);
 	}
-	_putchar('\n')
+	if (o == 9)
+	{
+	_putchar('\n');
+	}
 
 }
