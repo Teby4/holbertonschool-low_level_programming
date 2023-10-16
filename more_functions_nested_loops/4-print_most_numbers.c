@@ -13,7 +13,7 @@ void print_most_numbers(void)
 
 	o = 0;
 
-	while(o <= 9)
+	while (o <= 9)
 	{
 		if (o != 2 && o != 4)
 		{
