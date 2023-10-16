@@ -2,12 +2,12 @@
 #include <stdio.h>
 
 /**
- * print_numbers - print numbers 1 to 9
+ * print_most_numbers - print numbers 1 to 9
  * Return:
  * Description:
  */
 
-void print_numbers(void)
+void print_most_numbers(void)
 {
 	int o;
 
