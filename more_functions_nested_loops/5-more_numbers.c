@@ -25,10 +25,10 @@ void more_numbers(void)
 
 		while (o == 9)
 		{
-		 if (t >= 16;t <= 20)
+		 if (t >= 16; t <= 20)
 		 {
-		 _putchar(t + '0')
-		 t++
+		 _putchar(t + '0');
+		 t++;
 		 }
 		if (t == 20)
 		{
