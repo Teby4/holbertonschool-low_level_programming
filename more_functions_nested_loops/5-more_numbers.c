@@ -11,21 +11,35 @@ void more_numbers(void)
 {
 	int o;
 	int s;
-
-	o = 0;
+	int t;
+	
+	t = 16;
 	s = 0;
+	o = 0;
 
-	while (o <= 14)
+	while (o <= 9)
 	{
+	if (s >= 10)
+	{	
 	_putchar(o + '0');
 
-		if (o == 14 && s <= 10)
+		while (o == 9)
 		{
-		_putchar('\n');
-		o = 0;
+		 if (t >= 16;t <= 20)
+		 {
+		 _putchar(t + '0')
+		 t++
+		 }
+		if (t == 20)
+		{
 		s++;
+		t = 0;
+		}
+		o = 0;
+
 		}
 	o++;
+	}
 	}
 
 }
