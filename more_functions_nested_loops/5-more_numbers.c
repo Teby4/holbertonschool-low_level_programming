@@ -19,10 +19,11 @@ void more_numbers(void)
 	{
 	_putchar(o + '0');
 
-		while (o == 9)
+		if (o == 9 && s <= 10)
 		{
 		_putchar('\n');
 		o = 0;
+		s++
 		}
 	o++;
 	}
