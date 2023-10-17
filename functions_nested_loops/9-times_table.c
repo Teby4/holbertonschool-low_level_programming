@@ -14,6 +14,7 @@ void times_table(void)
 
 	for (a = 0; a <= 9; a++)
 	{
+	b = 0;
 		while (b < 10)
 		{
 			if (a * b > 9)
@@ -31,7 +32,6 @@ void times_table(void)
         	_putchar(' ');
 		b++;
 		}
-	b = 0;
 	_putchar('\n');
 	}
 }
