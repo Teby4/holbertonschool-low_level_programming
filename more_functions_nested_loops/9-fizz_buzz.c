@@ -1,9 +1,9 @@
 #include<stdio.h>
 
 /**
- *
- *
- *
+ * main - 
+ * Return: 0
+ * Description:
  *
  */
 
@@ -13,8 +13,6 @@ int main(void)
 
 	for(n = 1; n <= 100; n++)
 	{
-
-		printf ("%d ", n);
 
 			if (n % 3 == 0)
 			{
@@ -30,6 +28,8 @@ int main(void)
 			{
 			printf ("FizzBuzz ");
 			}
+
+		printf ("%d ", n);
 
 	}
 
