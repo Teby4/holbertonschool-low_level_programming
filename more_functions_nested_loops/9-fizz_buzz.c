@@ -34,7 +34,7 @@ int main(void)
 			}
 			if (n == 100)
 			{
-			printf ("Buzz")
+			printf ("Buzz");
 			}
 
 	}
