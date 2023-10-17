@@ -28,9 +28,13 @@ int main(void)
 			printf ("Fizz ");
 			}
 
-			if (n % 5 == 0)
+			if (n % 5 == 0 && n < 100)
 			{
 			printf ("Buzz ");
+			}
+			if (n == 100)
+			{
+			printf ("Buzz")
 			}
 
 	}
