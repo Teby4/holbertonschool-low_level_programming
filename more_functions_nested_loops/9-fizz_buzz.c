@@ -11,34 +11,34 @@ int main(void)
 {
 	int n;
 
-	for(n = 1; n <= 100; n++)
+	for (n = 1; n <= 100; n++)
 	{
 			if (n % 3 != 0 && n % 5 != 0)
 			{
-			printf ("%d ", n);
+			printf("%d ", n);
 			}
 
 			if (n % 3 == 0 && n % 5 == 0)
 			{
-				printf ("FizzBuzz ");
+				printf("FizzBuzz ");
 			}
 
 			else if (n % 3 == 0)
 			{
-			printf ("Fizz ");
+			printf("Fizz ");
 			}
 
 			else if (n % 5 == 0 && n < 100)
 			{
-			printf ("Buzz ");
+			printf("Buzz ");
 			}
 			if (n == 100)
 			{
-			printf ("Buzz");
+			printf("Buzz");
 			}
 
 	}
 
-	printf ("\n");
+	printf("\n");
 	return (0);
 }
