@@ -24,7 +24,10 @@ void times_table(void)
 			}
 			else if (a * b <= 9)
 			{
+				if (b > 0)
+				{
 				_putchar(' ');
+				}
 				_putchar(a * b + '0');
 			}
 			if (b < 9)
@@ -36,4 +39,5 @@ void times_table(void)
 		}
 	_putchar('\n');
 	}
+
 }
