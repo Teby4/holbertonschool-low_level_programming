@@ -23,8 +23,7 @@ void puts_half(char *str)
 	str++;
 	cont++;
 	}
-	j = cont/ 2;
-	str[j];
+	j = cont / 2;
 	str = ero;
 	while (str[j] != '\0')
 	{
