@@ -5,8 +5,8 @@
  * swap_int -
  * Return:
  * Description:
- * @a:
- * @b:
+ * @a: a number
+ * @b: b number
  */
 
 void swap_int(int *a, int *b)
