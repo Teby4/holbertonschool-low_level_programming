@@ -14,7 +14,7 @@ void print_rev(char *s)
 	
 	j = s;
 
-		while (*s <= '\0')
+		while (*s != '\0')
 		{
 		s++;
 		}
@@ -24,5 +24,6 @@ void print_rev(char *s)
 		_putchar(*s);
 		s--;
 		}
+
 	_putchar('\n');
 }
