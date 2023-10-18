@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <main.h>
 
 /**
  * main -  takes a pointer to a int and updates the value
@@ -6,14 +7,12 @@
  * Description:
  */
 
-int main(void)
+void reset_to_98(int *n)
 {
-	int n;
-	int *p;
+	
+	int p;
 
-	n = 98;
-	p = &n;
-	return (0);|
-
+	p = 98;
+	n = &p;
 
 }
