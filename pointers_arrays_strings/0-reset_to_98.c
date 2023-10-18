@@ -12,7 +12,7 @@ int main(void)
 	int *p;
 
 	n = 98;
-	*p = &n;
+	p = &n;
 
 
 }
