@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * swap_int -
+ * swap_int - swaps the value of to ints
  * Return:
  * Description:
  * @a: a number
