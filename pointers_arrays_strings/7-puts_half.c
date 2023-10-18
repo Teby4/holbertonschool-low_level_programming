@@ -20,10 +20,10 @@ void puts_half(char *str)
 	cont = 0;
 	while (*str != '\0')
 	{
-	s++;
+	str++;
 	cont++;
 	}
-	j = cont/ 2
+	j = cont/ 2;
 	str[j];
 	str = ero;
 	while (str[j] != '\0')
