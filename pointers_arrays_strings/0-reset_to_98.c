@@ -2,14 +2,15 @@
 #include "main.h"
 
 /**
- * main -  takes a pointer to a int and updates the value
- * return: 0
+ * reset_to_98 -  takes a pointer to a int and updates the value
+ * return:
  * Description:
+ * @n: number
  */
 
 void reset_to_98(int *n)
 {
-	
+
 	int p;
 
 	p = 98;
