@@ -13,6 +13,7 @@ int main(void)
 
 	n = 98;
 	p = &n;
+	return (0);|
 
 
 }
