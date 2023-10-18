@@ -2,19 +2,20 @@
 #include <stdio.h>
 
 /**
- * print_array - 
+ * print_array - printf
  * Return:
  * Description:
- * @a - array
- * @n - array
+ * @a: array
+ * @n: array
  */
 
 void print_array(int *a, int n)
 {
 	int j;
-	
+
 	j = 0;
-	while ( j < n)
+
+	while (j < n)
 	{
 	printf("%d", a[j]);
 	if (j != n - 1)
@@ -22,7 +23,7 @@ void print_array(int *a, int n)
 		printf(", ");
 	}
 	j++;
-	
+
 	}
 	printf("\n");
 }
