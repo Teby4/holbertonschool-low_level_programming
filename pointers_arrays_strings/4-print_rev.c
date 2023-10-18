@@ -9,7 +9,7 @@
  */
 
 void print_rev(char *s)
-
+{
 	char *j;
 	
 	j = s;
