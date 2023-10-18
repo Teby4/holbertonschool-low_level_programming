@@ -28,5 +28,5 @@ void rev_string(char *s)
 		*s = temp;
 		j++;
 		s--;
-
+		}
 }
