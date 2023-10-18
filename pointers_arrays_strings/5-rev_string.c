@@ -29,7 +29,4 @@ void rev_string(char *s)
 		j++;
 		s--;
 
-		}
-
-	_putchar('\n');
 }
