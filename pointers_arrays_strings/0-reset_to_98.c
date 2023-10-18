@@ -9,9 +9,10 @@
 int main(void)
 {
 	int n;
+	int *p;
 
 	n = 0;
 	*p = 98;
-	n = *p
+	n = *p;
 
 }
