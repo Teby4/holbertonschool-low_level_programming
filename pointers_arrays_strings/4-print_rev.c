@@ -9,9 +9,9 @@
  */
 
 void print_rev(char *s)
-{	
+{
 	char *j;
-	
+
 	j = s;
 
 		while (*s != '\0')
