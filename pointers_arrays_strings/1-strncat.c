@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * *strncat - 
+ * strncat - copy
  * Return: dest
  * Description:
  * @dest: destination 
@@ -12,7 +12,6 @@
 
 char *_strncat(char *dest, char *src, int n)
 {
-	n = 0;
 	while (*dest != '\0')
 	{
 	dest++;
@@ -20,15 +19,14 @@ char *_strncat(char *dest, char *src, int n)
 
 	while (*src != '\0')
 	{
-		if (*src >= n)
+		if (n == 0)
 		{
 		break;
 		}
-
 	*dest = *src;
 	dest++;
 	src++;
-	n++;
+	n--;
 	}
 
 	return (dest);   
