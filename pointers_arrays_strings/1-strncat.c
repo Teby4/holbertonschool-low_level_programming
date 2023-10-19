@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * strncat - copy
@@ -23,6 +22,7 @@ char *_strncat(char *dest, char *src, int n)
 		{
 		break;
 		}
+
 	*dest = *src;
 	dest++;
 	src++;
