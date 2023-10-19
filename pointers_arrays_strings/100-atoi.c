@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * *_strcpy - copy the string
+ * _atoi - copy the first number
  * Return: j
  * Description:
  * @s: source
