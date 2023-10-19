@@ -14,10 +14,10 @@ char *_strcpy(char *dest, char *src)
 	while (*src != '\0')
 	{
 	*dest = *src;
-	_putchar(*dest);
 	src++;
+	dest++;
 	}
 
 	_putchar('\n');
-	return (0);
+	return (dest);
 }
