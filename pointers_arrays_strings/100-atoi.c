@@ -19,7 +19,7 @@ int _atoi(char *s)
 	{
 		if (*s > '0')
 		{
-		j * 10 + *s - '0';
+		j * 10 + *s;
 		}
 
 		else if (*s == '-')
