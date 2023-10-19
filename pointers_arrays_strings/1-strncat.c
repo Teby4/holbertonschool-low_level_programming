@@ -4,7 +4,7 @@
  * _strncat - copy
  * Return: dest
  * Description:
- * @dest: destination 
+ * @dest: destination
  * @src: source
  * i@: n
  */
@@ -34,5 +34,5 @@ char *_strncat(char *dest, char *src, int n)
 	}
 	dest = j;
 
-	return (dest);   
+	return (dest);
 }
