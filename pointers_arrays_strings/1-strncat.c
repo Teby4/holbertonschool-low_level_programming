@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * strncat - copy
+ * _strncat - copy
  * Return: dest
  * Description:
  * @dest: destination 
