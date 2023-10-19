@@ -6,7 +6,7 @@
  * Description:
  * @dest: destination
  * @src: source
- * n@: number to stop at
+ * @n: number to stop at
  */
 
 char *_strncat(char *dest, char *src, int n)
