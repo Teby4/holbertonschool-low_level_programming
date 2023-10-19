@@ -18,7 +18,7 @@ int _atoi(char *s)
 	u = 0;
 
 	while (*s != '\0')
-	{
+		{
 		if (*s >= '0' && *s <= '9')
 		{
 		i = *s - '0';
@@ -30,7 +30,7 @@ int _atoi(char *s)
 		{
 		n++;
 		}
-		
+
 		else if (u != 0)
 		{
 		break;
