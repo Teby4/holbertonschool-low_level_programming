@@ -39,9 +39,9 @@ int _atoi(char *s)
 	}
 
 	if (n % 2 == 0)
-                {
-                j = -j;
-                }
+		{
+		j = -j;
+		}
 
 	return (j);
 }
