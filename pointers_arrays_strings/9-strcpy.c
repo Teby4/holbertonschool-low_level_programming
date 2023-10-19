@@ -21,5 +21,5 @@ char *_strcpy(char *dest, char *src)
 	}
 
 	_putchar('\n');
-	return (dest);
+	return (0);
 }
