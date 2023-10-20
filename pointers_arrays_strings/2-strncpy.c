@@ -27,10 +27,11 @@ char *_strncpy(char *dest, char *src, int n)
 		}
 
 	*dest = *src;
-	src++;
 	dest++;
+	src++;
 	n--;
 	}
+
 	dest = j;
 	return (dest);
 }
