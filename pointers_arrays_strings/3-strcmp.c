@@ -10,31 +10,15 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	int j, u;
-
-	j = 0;
-	u = 0;
-
-	while (*s1 != '\0' && *s2 != '\0')
+	while (*s1 == *s2)
 	{
-		if(*s1 == *s2)
+		if (*s1 == '\0' && *s2 == '\0')
 		{
-		u++;
+		break;
 		}
 	s1++;
 	s2++;
-	j++;
 	}
-	if (u == j)
-	{
-	return (1);
-	}
-	else if (u == 0)
-	{
-	return (0);
-	}
-	else
-	{
-	return (-1);
-	}
+
+return (*s1 - *s2);
 }
