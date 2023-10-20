@@ -4,7 +4,7 @@
  * string_toupper - change to uppercase
  * Return: string uppercase
  * Description:
- *
+ * @p: string
  */
 
 char *string_toupper(char *p)
