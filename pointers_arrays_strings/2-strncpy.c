@@ -17,6 +17,10 @@ char *_strncpy(char *dest, char *src, int n)
 
 	while (*src != '\0')
 	{
+		if (n == 0)
+		{
+		break;
+		}
 	*dest = *src;
 	dest++;
 	src++;
