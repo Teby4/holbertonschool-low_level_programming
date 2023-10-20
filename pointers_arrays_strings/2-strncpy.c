@@ -23,7 +23,7 @@ char *_strncpy(char *dest, char *src, int n)
 	n--;
 	}
 
-	while (n <= 0)
+	while (n >= 0)
 		{
 			if (*dest == '\0')
 			{
@@ -32,6 +32,7 @@ char *_strncpy(char *dest, char *src, int n)
 
 		*dest = '\0';
 		dest++;
+		n--;
 		}
 
 	dest = j;
