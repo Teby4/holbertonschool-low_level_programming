@@ -21,6 +21,6 @@ char *string_toupper(char *p)
 		}
 	p++;
 	}
-	p = j;
+	p = r;
 	return (p);
 }
