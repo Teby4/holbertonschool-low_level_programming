@@ -30,7 +30,7 @@ char *_strncpy(char *dest, char *src, int n)
 			break;
 			}
 
-		dest = '\0';
+		*dest = '\0';
 		dest++;
 		}
 
