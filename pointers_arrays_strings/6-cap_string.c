@@ -19,5 +19,5 @@ char *cap_string(char *p)
 	p++;
 	}
 
-
+ return (p);
 }
