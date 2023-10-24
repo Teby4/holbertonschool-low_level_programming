@@ -9,15 +9,15 @@
 
 char *cap_string(char *p)
 {
-	while(*p != 32)
+	while(*p != '\0')
 	{
+		if (*p == 32)
+		{
+		p++;
+		p = p -32;
+		}
 	p++;
-	}
-	if (*p == 32)
-	{
-	p++;
-	p = p - 32;
 	}
 
  return (p);
-}
+}h
