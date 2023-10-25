@@ -22,11 +22,6 @@ char *cap_string(char *p)
 		if (*p >= 'a' && *p <= 'z')
                         {
                         *p = *p -32;
-                        p++;
-                        }
-                        else
-                        {
-                        p++;
                         }
 	p++;
 	}
