@@ -14,12 +14,11 @@ char *leet(char *p)
 	char a[10] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
 	char b[10] = {'4', '4', '3', '3', '0', '0', '7', '7', '1', '1'};
 	
-	cont = 0;
 	cont2 = 0;
 
 	while (*p != '\0')
 	{
-		for (; cont < 10; cont++)
+		for (cont = 0; cont < 10; cont++)
 		{
 			if (*p == a[cont])
 			{
