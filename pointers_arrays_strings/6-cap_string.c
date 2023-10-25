@@ -32,3 +32,4 @@ char *cap_string(char *p)
 	}
        	p = j;
 	return (p);
+}
