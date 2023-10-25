@@ -9,6 +9,9 @@
 
 char *cap_string(char *p)
 {
+	char *j;
+	
+	j = p;
 	while(*p != '\0')
 	{
 		if (*p == ' ')
@@ -21,6 +24,6 @@ char *cap_string(char *p)
 		}
 	p++;
 	}
-
- return (p);
+       	p = j;
+	return (p);
 }
