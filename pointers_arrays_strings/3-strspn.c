@@ -2,10 +2,10 @@
 
 /**
  * _strspn - return number of bytes
- * Return:
+ * Return: len
  * Description:
- * @s:
- * @acceot:
+ * @s: string
+ * @accept: acept
  */
 
 unsigned int _strspn(char *s, char *accept)
@@ -20,10 +20,11 @@ unsigned int _strspn(char *s, char *accept)
 		}
 		if (*s == *accept)
 		{
-		len++;
+		break;
 		}
 	s++;
 	accept++;
+	len++;
 	}
 
 	return (len);
