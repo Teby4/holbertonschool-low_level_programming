@@ -10,11 +10,8 @@
 char *cap_string(char *p)
 {
 	char *j = p;
-
-	if (*p >= 'a' && *p <= 'z')
-	{                        
+             
 	*p = *p -32;
-	}
 
 	while (*p != '\0')
 	{
