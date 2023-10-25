@@ -12,6 +12,9 @@ unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int len = 0;
 	int stop = 0;
+	char *j=
+
+	j = accept;
 
 	while (*s != '\0')
 	{
@@ -30,6 +33,7 @@ unsigned int _strspn(char *s, char *accept)
 	}
 	len++;
 	s++;
+	accept = j;
 	}
 	return (len);
 }
