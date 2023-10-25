@@ -19,7 +19,7 @@ char *leet(char *p)
 
 	while (*p != '\0')
 	{
-		for (; cont < 10; cont++;)
+		for (; cont < 10; cont++)
 		{
 			if (*p == a[cont])
 			{
@@ -33,4 +33,5 @@ char *leet(char *p)
 	
 
 	p = j;
+	return (p);
 }
