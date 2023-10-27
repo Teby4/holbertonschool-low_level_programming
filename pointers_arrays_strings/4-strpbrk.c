@@ -2,7 +2,7 @@
 
 /**
  * _strpbrk - locates first occurance
- * Return:
+ * Return: accept1
  * Description:
  * @s: string
  * @accept: string
