@@ -16,6 +16,6 @@ int _pow_recursion(int x, int y)
 	}
 	if (x <= 1)
 	{
-		return (_power_recursion(n * y);
+		return (_pow_recursion(n * y);
 	}
 }
