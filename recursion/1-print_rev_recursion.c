@@ -10,9 +10,15 @@
 void _print_rev_recursion(char *s)
 {
 	char *j;
+	char *p;
 
+	p = j;
 	j = s;
 
+	if (s == j)
+	{
+	break;
+	}
 	if (*j == '\0')
 	{
 	_putchar(*s);
