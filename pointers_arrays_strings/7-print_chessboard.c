@@ -1,5 +1,5 @@
 #include "main.h"
-void print_chessboard(char (*a)[8])
+
 /**
  * print_chessboard - ME QUIERO MORIR !!!!
  * Return:
