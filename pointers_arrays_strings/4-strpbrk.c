@@ -19,13 +19,13 @@ char *_strpbrk(char *s, char *accept)
 	if (*s == *accept)
 	{
 	j = 1;
-	return (accept)
+	return (accept);
 	}
 	s++;
 	}
 
 	if (j == 0)
 	{
-	return ('\0')
+	return ('\0');
 	}
 }
