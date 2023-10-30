@@ -2,7 +2,7 @@
 
 /**
  * _pow_recursion - recursion
- * Return:
+ * Return: power
  * Description:
  * @x: number
  * @y: number
