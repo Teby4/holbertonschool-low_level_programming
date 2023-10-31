@@ -16,5 +16,5 @@ int main(int argc, char **argv)
 	{
 		printf("%s\n", argv[i]);
 	}
-	reurn (0);
+	return (0);
 }
