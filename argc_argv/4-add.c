@@ -21,12 +21,13 @@ int main(int argc, char **argv)
 	{
 		for (;j < strlen(argv[i]); j++)
 		{
-		if (isdigit(argv[i][j]) != 0)
+		if (!isdigit(argv[i][j]))
 		{
 		printf("Error\n");
 		return (1);
 		}
 		}
+
 	r = r + atoi(argv[i]);
 	}
 	printf("%d\n", r);
