@@ -15,11 +15,11 @@ int main(int argc, char **argv)
 {
 	int i;
 	int r = 0;
-	int j = 0;
+	unsigned int j = 0;
 
 	for (i = 0; i < argc; i++)
 	{
-		for (; j < strlen(argv[i]); j++)
+		for (;j < strlen(argv[i]); j++)
 		{
 		if (isdigit(argv[i][j]) != 0)
 		{
