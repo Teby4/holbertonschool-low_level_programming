@@ -14,14 +14,18 @@ int main(int argc, char **argv)
 {
 	int i;
 	int r = 0;
+	int j = 0;
 
 	for (i = 0; i < argc; i++)
 	{
-	if (isdigit(argv[i]) != 0)
-	{
-	printf("Error\n");
-	return (1);
-	}
+		for (; j < strlen(argv[i]); j++)
+		{
+		if (isdigit(argv[i][j]) != 0)
+		{
+		printf("Error\n");
+		return (1);
+		}
+		}
 	r = r + atoi(argv[i]);
 	}
 	printf("%d\n", r);
