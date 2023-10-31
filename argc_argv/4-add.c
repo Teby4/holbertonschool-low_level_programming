@@ -17,7 +17,7 @@ int main(int argc, char **argv)
 	int r = 0;
 	unsigned int j = 0;
 
-	for (i = 0; i < argc; i++)
+	for (i = 1; i < argc; i++)
 	{
 		for (;j < strlen(argv[i]); j++)
 		{
