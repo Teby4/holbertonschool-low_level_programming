@@ -3,30 +3,30 @@
 #include <stdlib.h>
 
 /**
- *
- *
- *
- *
- *
+ * create_array - array
+ * Return: array null
+ * Description:
+ * @size: size of array
+ * @c: c
  */
 
 char *create_array(unsigned int size, char c)
 {
 	char *a;
-	int i;
+	unsigned int i;
 
 	if (size == 0)
 	{
 	return ('\0');
 	}
-	*a = (int*)malloc(size*sizeof(int));
+	*a = (char*)malloc(size*sizeof(char));
 	if (*a == '\0')
 	{
 	return ('\0');
 	}
 	for (i = 0; i < size; i++)
 	{
-	*a[i] = c;
+	a[i] = c;
 	}
 	return (a);
 }
