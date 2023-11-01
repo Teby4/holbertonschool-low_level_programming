@@ -4,10 +4,11 @@
 #include <string.h>
 
 /**
- *  -
- * Return:
+ * str_concat - concatinate two strings
+ * Return: the two strings together
  * Description:
- * @ :
+ * @s1: string1
+ * @s2: string2
  */
 
 char *str_concat(char *s1, char *s2)
@@ -24,13 +25,13 @@ char *str_concat(char *s1, char *s2)
 	{
 		return(NULL);
 	}
-	if (s1 != '\0'){
+	if (s1 != NULL){
 	for (cont1 = 0; cont1 < strlen(s1); cont1++)
 	{
 	j[cont1] = s1[cont1];
 	}
 	}
-	if (s2 != '\0'){
+	if (s2 != NULL){
 	for (cont2 = 0; cont2 < strlen(s2); cont2++)
 	{
 	j[cont1] = s2[cont2];
