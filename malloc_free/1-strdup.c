@@ -4,7 +4,7 @@
 #include <string.h>
 
 /**
- * _strdup -
+ * _strdup - copy a string
  * Return: pointer to new string
  * Description:
  * @str: string
@@ -30,5 +30,5 @@ char *_strdup(char *str)
 	j[i] = str[i];
 	}
 
-	return j;
+	return (j);
 }
