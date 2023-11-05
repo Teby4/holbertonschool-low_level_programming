@@ -4,7 +4,7 @@
 
 /**
  * malloc_checked- check for mallock
- * Return:
+ * Return: ptr
  * Description:
  * @b: unsigned int
  */
@@ -14,11 +14,11 @@ void *malloc_checked(unsigned int b)
 	void *ptr;
 
 	ptr = malloc(b);
-	
+
 	if (ptr == NULL)
 	{
 		exit(98);
 	}
-	
+
 	return (ptr);
 }
