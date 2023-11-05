@@ -4,14 +4,11 @@
  * main - return the name of the file
  * Return: file name
  * description:
- * @argc: argc
- * @argv: argv
  */
 
-int main(int argc, char **argv)
+int main(void)
 {
-	(void)argc;
 
-	 printf("%s\n", __FILE__);
+       	printf("%s\n", __FILE__);
 	return 0;
 }
