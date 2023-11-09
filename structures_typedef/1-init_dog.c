@@ -4,10 +4,10 @@
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-struct dog my_dog;
-my_dog.name = name;
-my_dog.age = age;
-my_dog.owner = owner;
+struct dog dog_t;
+dog_t.name = name;
+dog_t.age = age;
+dog_t.owner = owner;
 
-return (new_dog);
+return (dog_t);
 }
