@@ -1,8 +1,9 @@
 #include "dog.h"
 
 /**
- * init_dog - initializie the dog function 
+ * init_dog - initializie the dog function
  * Return:
+ * @d: pointer
  * @name: dog name
  * @age: dog age
  * @owner: dog owner
