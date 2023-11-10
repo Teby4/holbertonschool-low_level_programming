@@ -5,7 +5,7 @@
 
 /**
  * new_dog - new dog
- * Return:
+ * Return: new dog
  * Description:
  * @name: dog name
  * @age: dog age
@@ -15,14 +15,15 @@
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *new_dog_ptr = (dog_t *)malloc(sizeof(dog_t));
-	
+
 	if (new_dog_ptr == NULL)
 	{
 	return (NULL);
 	}
 
 	new_dog_ptr->name = strdup(name);
-	if (new_dog_ptr->name == NULL) {
+	if (new_dog_ptr->name == NULL)
+	{
 	free(new_dog_ptr);
 	return (NULL);
 	}
@@ -38,5 +39,5 @@ dog_t *new_dog(char *name, float age, char *owner)
 	return (NULL);
 	}
 
-	return new_dog_ptr;
+	return (new_dog_ptr);
 }
