@@ -22,19 +22,19 @@ void print_all(const char * const format, ...)
 
 	switch(format[i])
 	{
-	case c:
+	case 'c':
 	printf("%d", va_arg(args, char));
 	break;
 
-	case i:
+	case 'i':
 
 	break;
 
-	case f:
+	case 'f':
 
 	break;
 
-	case s:
+	case 's':
 
 	break;
 	}
