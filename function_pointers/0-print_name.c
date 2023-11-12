@@ -8,13 +8,7 @@
  * @f: function
  */
 
-void prname(char *name) 
-{
-	printf("%s!\n", name);
-}
-
 void print_name(char *name, void (*f)(char *))
 {
-f(prname);
+f(name);
 }
-
