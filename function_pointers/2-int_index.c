@@ -5,7 +5,7 @@
 
 /**
  * int_index - array iterator
- * Return:
+ * Return: pointer to array
  * @array: array
  * @size: size of array
  * @cmp: function
