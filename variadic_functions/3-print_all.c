@@ -12,6 +12,7 @@
 void print_all(const char * const format, ...)
 {
 	unsigned int i = 0;
+	char *str;
 
 	va_list(args);
 
@@ -27,16 +28,22 @@ void print_all(const char * const format, ...)
 	break;
 
 	case 'i':
-
+	printf("%d", va_args(args, int))
 	break;
 
 	case 'f':
-
+	printf("f", va_arg(args), float)
 	break;
 
 	case 's':
-
+	str = va_arg(args, char*);
+	if (str == NULL)
+	{
+	str = "(nil)";
+	}
+	printf("%s", str)
 	break;
+
 	}
 	i++;
 	}
