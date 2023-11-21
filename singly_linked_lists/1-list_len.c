@@ -2,7 +2,7 @@
 
 /**
  * list_len - calculate the lenght of the list
- * Return: lenght 
+ * Return: lenght
  * @h: list firts pointer
  */
 
