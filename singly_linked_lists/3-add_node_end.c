@@ -10,6 +10,7 @@
 list_t *add_node(list_t **head, const char *str)
 {
 	size_t i = 0, lent = 0;
+	list_t Node* last = *head;
 
 	list_t *new_node;
 
@@ -41,8 +42,6 @@ list_t *add_node(list_t **head, const char *str)
 	new_node->next = *head;
 	*head = new_node;
 	new_node->next = NULL;
-
-	struct Node* last = *head;
 
 	 while (last->next != NULL)
 	{
