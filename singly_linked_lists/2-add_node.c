@@ -2,7 +2,7 @@
 
 /**
  * add_node - add node to list
- * Return:
+ * Return: new node
  * @head: head of the list
  * @str: string
  */
@@ -22,8 +22,8 @@ list_t *add_node(list_t **head, const char *str)
 	i++;
 	lent++;
 	}
-	
-	new_node= (list_t *)malloc(sizeof(list_t));
+
+	new_node = (list_t *)malloc(sizeof(list_t));
 
 	if (new_node == NULL)
 	{
