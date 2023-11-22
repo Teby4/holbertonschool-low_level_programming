@@ -10,11 +10,10 @@
 
  dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
  {
-    size_t lent = 0;
 	dlistint_t *last = *head;
 	dlistint_t *new_node;
 
-	if (n == NULL)
+	if (n == '\0')
 	{
 	return (NULL);
 	}
