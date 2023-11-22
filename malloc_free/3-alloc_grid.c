@@ -7,8 +7,8 @@
  * alloc_grid - copy a string
  * Return: pointer to new string
  * Description:
- * @width:
- * height:
+ * @width: width
+ * @height: height
  */
 
 int **alloc_grid(int width, int height)
