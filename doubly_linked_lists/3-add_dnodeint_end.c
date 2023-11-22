@@ -13,29 +13,29 @@
 	dlistint_t *last = *head;
 	dlistint_t *new_node;
 
-	if (n == '\0')
+	new_node <<<<<<<<<<<<<<= (dlistint_t *)malloc(sizeof(dlistint_t));>>>>>>>>>>>>>>
+	if (new_node == NULL)
 	{
 	return (NULL);
 	}
-
-	new_node = (dlistint_t *)malloc(sizeof(dlistint_t));
-	if (new_node == NULL)
-	{
-	return (NULL); }
 
 	new_node->n = n;
 	new_node->next = NULL;
 	if (*head == NULL)
 	{
-		*head = new_node; }
+		new_node->prev = NULL;
+		*head = new_node; 
+	}
 
 	else
 	{
 	while (last->next != NULL)
 	{
-		last = last->next; }
-
-	last->next = new_node; }
+		last = last->next; 
+	}
+	new_node->prev = last;
+	last->next = new_node; 
+	}
 
 	return (new_node);
  }
