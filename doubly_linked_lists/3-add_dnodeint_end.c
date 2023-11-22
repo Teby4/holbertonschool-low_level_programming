@@ -13,7 +13,7 @@
 	dlistint_t *last = *head;
 	dlistint_t *new_node;
 
-	new_node = (dlistint_t *)malloc(sizeof(dlistint_t));>>>>>>>>>>>>>>
+	new_node = (dlistint_t *)malloc(sizeof(dlistint_t));
 	if (new_node == NULL)
 	{
 	return (NULL);
