@@ -9,7 +9,7 @@
 
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 {
-	dlistint_t *current = *head
+	dlistint_t *current = *head;
 	int i;
 
 	if (!head)
@@ -25,7 +25,7 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 		}
 		if (index)
 		{
-			return (-1)
+			return (-1);
 		}
 
 		if (!index && current_node)
