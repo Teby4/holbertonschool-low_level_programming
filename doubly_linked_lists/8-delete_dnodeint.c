@@ -30,15 +30,15 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 
 		if (!index && current)
 		{
-			if (current_node->next)
-				current_node->next->prev = current_node->prev;
+			if (current->next)
+				current->next->prev = current->prev;
 
-			if (current_node->prev)
-				current_node->prev->next = current_node->next;
+			if (current->prev)
+				current->prev->next = current->next;
 			else
-				*head = current_node->next;
+				*head = current->next;
 
-			free(current_node);
+			free(current);
 			return (1);
 		}
 	}
