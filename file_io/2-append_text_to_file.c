@@ -27,7 +27,7 @@ int append_text_to_file(const char *filename, char *text_content)
 	{
 	fprintf(file, "%s", text_content);
 	}
-	
+
 	fclose(file);
 
 	return (1);
