@@ -44,17 +44,17 @@ int binary_search(int *array, size_t size, int value)
  */
 void print_array(const int *array, size_t size)
 {
-    size_t i;
+	size_t i;
 
-    i = 0;
-    printf("Searching in array: ");
-    while (array && i < size)
-    {
-        if (i == size - 1)
-            printf("%d", array[i]);
-        else
-            printf("%d, ", array[i]);
-        ++i;
-    }
-    printf("\n");
+	i = 0;
+	printf("Searching in array: ");
+	while (array && i < size)
+	{
+		if (i == size - 1)
+			printf("%d", array[i]);
+		else
+			printf("%d, ", array[i]);
+		++i;
+	}
+	printf("\n");
 }
